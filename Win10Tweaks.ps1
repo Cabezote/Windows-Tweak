@@ -454,7 +454,7 @@ bcdedit /set `{current`} bootmenupolicy Legacy | Out-Null
 
 # Rename The PC
 Write-Host "Renaming The PC..."
-Rename-Computer -NewName "Pedro J" 2>&1 | Out-Null
+Rename-Computer -NewName "Cabezote" 2>&1 | Out-Null
 
 # Delete Files
 	$tempfolders = @("C:\Windows\Temp\*", "C:\Windows\Prefetch\*", "C:\Documents and Settings\*\Local Settings\temp\*", "C:\Users\*\Appdata\Local\Temp\*")
