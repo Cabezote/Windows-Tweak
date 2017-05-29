@@ -386,7 +386,7 @@ Set-ItemProperty -Path "HKU:\.DEFAULT\Control Panel\Mouse" -Name "MouseThreshold
 
 # Download Ninite
 Write-Host "Downloading Ninite ..."
-$url = "https://ninite.com/.net4.6.2-air-chrome-firefox-foobar-gimp-inkscape-irfanview-java8-klitecodecs-libreoffice-notepadplusplus-paint.net-peazip-qbittorrent-shockwave-silverlight-spotify-steam-sumatrapdf-vscode/ninite.exe"
+$url = "https://ninite.com/chrome-irfanview-jdkx8-libreoffice-notepadplusplus-putty-qbittorrent-spotify-sumatrapdf-vlc-vscode-winrar/ninite.exe"
 $output = "C:\Users\$env:username\Desktop\Ninite.exe"
 Invoke-WebRequest $url -OutFile $output
 
@@ -454,7 +454,7 @@ bcdedit /set `{current`} bootmenupolicy Legacy | Out-Null
 
 # Rename The PC
 Write-Host "Renaming The PC..."
-Rename-Computer -NewName "JKaw" 2>&1 | Out-Null
+Rename-Computer -NewName "Pedro J" 2>&1 | Out-Null
 
 # Delete Files
 	$tempfolders = @("C:\Windows\Temp\*", "C:\Windows\Prefetch\*", "C:\Documents and Settings\*\Local Settings\temp\*", "C:\Users\*\Appdata\Local\Temp\*")
